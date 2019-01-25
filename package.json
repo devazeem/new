@@ -1,5 +1,5 @@
 {
-  "name": "new",
+  "name": "parse-server-tutorial",
   "version": "1.0.0",
   "description": "Parse server",
   "main": "ParseServer.js",
@@ -10,21 +10,17 @@
     "type": "git",
     "url": "git+https://github.com/devazeem/new.git"
   },
-  "author": "",
+  "author": "Aryeh Greenberg",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/devazeem/new/issues"
   },
-  "homepage": "https://github.com/devazeem/new#readme",
-"engines": {
-
+  "homepage": "https://github.com/new#readme",
+  "engines": {
       "node": "8.9.0"
-
-},
-"dependencies": {
-
+  },
+  "dependencies": {
     "express":"4.16.3",
-
-    "parse-server":"2.7.4",
-
+    "parse-server":"2.7.4"
   }
+}
