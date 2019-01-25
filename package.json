@@ -1,0 +1,32 @@
+{
+  "name": "new",
+  "version": "1.0.0",
+  "description": "Parse server",
+  "main": "ParseServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devazeem/new.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devazeem/new/issues"
+  },
+  "homepage": "https://github.com/devazeem/new#readme",
+"engines": {
+
+      "node": "8.9.0"
+
+},
+"dependencies": {
+
+    "express":"4.16.3",
+
+    "parse-server":"2.7.4"
+
+  }
+
+}
