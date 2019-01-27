@@ -6,7 +6,7 @@ var app = express();
 
 var api = new ParseServer({
 
-  databaseURI: process.env.DATABASE_URI, // Connection string for your MongoDB database
+  databaseURI: process.env.DATABASE_URI,
 
   appId: process.env.APP_ID,
 
@@ -15,8 +15,6 @@ var api = new ParseServer({
   serverURL: process.env.SERVER_URL,
 
 });
-
-// Serve the Parse API on the /parse URL prefix
 
 app.use('/parse', api);
 
